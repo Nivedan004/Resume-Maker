@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:gorm-logical-delete:2.0.0.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/gorm-logical-delete/2.0.0.BUILD-SNAPSHOT/407a3336b0443b3297a31fa607d1e414caa5caf/gorm-logical-delete-2.0.0.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/gorm-logical-delete/2.0.0.BUILD-SNAPSHOT/bd5b6ea1c403b2007d6389c67f92626588ffb407/gorm-logical-delete-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

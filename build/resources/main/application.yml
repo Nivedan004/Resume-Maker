@@ -1,0 +1,130 @@
+---
+grails:
+    profile: web
+    codegen:
+        defaultPackage: resumemaker
+    gorm:
+        reactor:
+            # Whether to translate GORM events into Reactor events
+            # Disabled by default for performance reasons
+            events: false
+info:
+    app:
+        name: 'resumemaker'
+        version: '0.1'
+        grailsVersion: '5.3.4'
+spring:
+    main:
+        banner-mode: "off"
+    groovy:
+        template:
+            check-template-location: false
+            cache: false
+    devtools:
+        restart:
+            exclude:
+                - grails-app/init/**
+                - grails-app/i18n/**
+                - grails-app/conf/**
+                - grails-app/assets/**
+            poll-interval: "2s"
+            quiet-period: "1s"
+
+# Spring Actuator Endpoints are Disabled by Default
+endpoints:
+    enabled: false
+    jmx:
+        enabled: true
+server:
+    port: 9092
+    contextPath: "/resumemaker"
+---
+grails:
+    mime:
+        disable:
+            accept:
+                header:
+                    userAgents:
+                        - Gecko
+                        - WebKit
+                        - Presto
+                        - Trident
+        types:
+            all: '*/*'
+            atom: application/atom+xml
+            css: text/css
+            csv: text/csv
+            form: application/x-www-form-urlencoded
+            html:
+                - text/html
+                - application/xhtml+xml
+            js: text/javascript
+            json:
+                - application/json
+                - text/json
+            multipartForm: multipart/form-data
+            pdf: application/pdf
+            rss: application/rss+xml
+            text: text/plain
+            hal:
+                - application/hal+json
+                - application/hal+xml
+            xml:
+                - text/xml
+                - application/xml
+    urlmapping:
+        cache:
+            maxsize: 1000
+    controllers:
+        defaultScope: singleton
+        upload:
+            maxFileSize: 100000000
+            maxRequestSize: 100000000
+    converters:
+        encoding: UTF-8
+        json:
+            default:
+                deep: true
+    views:
+        default:
+            codec: html
+        gsp:
+            encoding: UTF-8
+            htmlcodec: xml
+            codecs:
+                expression: html
+                scriptlets: html
+
+                taglib: none
+                staticparts: none
+endpoints:
+    jmx:
+        unique-names: true
+
+---
+server:
+    servlet:
+        context-path: "/resumemaker"
+    port: 9092
+---
+grails:
+    mongodb:
+      # host: 172.16.17.152
+       # host: 172.16.17.152
+        host: localhost
+        port: 27017
+
+       # username: "smarthealthusr"
+       # password: "L109gQ&0"
+        databaseName: "resumedb"
+        default:
+            mapping:
+                version: false
+                '*':
+                    reference: true
+#hibernate:
+#  cache:
+#    queries: false
+#    use_second_level_cache: false
+#    use_query_cache: false
+#  dialect: "org.hibernate.dialect.H2Dialect"  # Add this line for H2 database

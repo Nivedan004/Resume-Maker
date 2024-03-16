@@ -1,0 +1,6 @@
+#Sat, 02 Mar 2024 11:34:16 +0530
+
+info.app.version=0.1
+info.app.name=resumemaker
+grails.env=production
+info.app.grailsVersion=5.3.4

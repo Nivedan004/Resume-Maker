@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"typed-text.js",
+"lineCount":2,
+"mappings":"A;AAAA,IAAIA,QAAUA,OAAVA,EAAqB,CAACC,IAAK,CAACC,SAAU,aAAX,CAAN,CACzBC,EAAA,CAAEC,QAAF,CAAA,CAAYC,KAAZ,CAAkB,QAAS,CAACF,CAAD,CAAI,CAMf,IAAIG,KAAJ,CAAU,aAAV,CAAyB,CACjCC,eAAgB,gBADiB,CAEjCC,UAAW,EAFsB,CAGjCC,UAAW,EAHsB,CAIjCC,WAAY,GAJqB,CAKjCC,KAAM,CAAA,CAL2B,CAMjCC,UAAWC,QANsB,CAAzB,CANe,CAA/B;",
+"sources":["typed-text.unminified.js"],
+"names":["process","env","NODE_ENV","$","document","ready","Typed","stringsElement","typeSpeed","backSpeed","startDelay","loop","loopCount","Infinity"]
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.micronaut.spring:micronaut-spring:4.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.spring/micronaut-spring/4.5.0/c10a0047682032b3057513f4644975496d845f63/micronaut-spring-4.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.spring/micronaut-spring/4.5.0/d8e3ca6b5bb816485ce46a4952666c3c31b7c235/micronaut-spring-4.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
